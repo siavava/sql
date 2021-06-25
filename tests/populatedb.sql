@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS donut_list
 );
 INSERT INTO donut_list (donut_name, donut_type, fun_fact)
 VALUES (
-    'KDF',
-    'hard',
-    'tough!'
-  );
+  'KDF',
+  'hard',
+  'tough!'
+);
