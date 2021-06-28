@@ -41,3 +41,17 @@ SELECT * FROM my_drinks
 WHERE
 main LIKE '%juice';
 
+/* select all with amount1 > 2 and amount2 < 2 */
+SELECT drink_id, drink_name FROM my_drinks
+WHERE
+amount1 > 1 AND amount2 < 1;
+
+/* selecting ranges */
+SELECT drink_id, drink_name FROM my_drinks
+WHERE
+amount2 >= 2 AND amount2 <= 6;
+
+/* selecting ranges using BETWEEN */
+SELECT drink_id, drink_name FROM my_drinks
+WHERE
+amount2 BETWEEN 2 AND 6;
