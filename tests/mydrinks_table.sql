@@ -33,4 +33,5 @@ VALUES
 ('Bull Frog', 'iced tea', 1.5, 'lemonade', 5),
 ('Soda and lt', 'soda', 2, 'grape juice', 1);
 
+/* show all table contents */
 SELECT * FROM my_drinks;
