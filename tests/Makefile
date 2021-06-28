@@ -3,13 +3,13 @@
 # Author: siavava <amittaijoel@outlook.com>
 
 start:
-	make -C /workspace/work/odoo start
+	make -C ../odoo_config start
 
 config:
-	make -C /workspace/work/odoo config
+	make -C ../odoo_config config
 
 stop:
-	make -C /workspace/work/odoo stop
+	make -C ../odoo_config stop
 
 clean:
-	make -C /workspace/work/odoo clean
+	make -C ../odoo_config clean

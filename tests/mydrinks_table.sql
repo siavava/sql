@@ -35,3 +35,9 @@ VALUES
 
 /* show all table contents */
 SELECT * FROM my_drinks;
+
+/* select all with a 'juice' main ingredient */
+SELECT * FROM my_drinks
+WHERE
+main LIKE '%juice';
+
