@@ -1,2 +1,0 @@
-
-DESC my_contacts;
