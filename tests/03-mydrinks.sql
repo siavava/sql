@@ -55,3 +55,22 @@ amount2 >= 2 AND amount2 <= 6;
 SELECT drink_id, drink_name FROM my_drinks
 WHERE
 amount2 BETWEEN 2 AND 6;
+
+/* delete from table */
+-- DELETE FROM my_drinks
+-- WHERE
+-- amount2 BETWEEN 2 AND 6;
+
+/* peek into table */
+SELECT * FROM my_drinks;
+
+/* update values */
+UPDATE my_drinks
+SET main = 'water' 
+WHERE MAIN = 'soda';
+
+/* peek into table */
+SELECT * FROM my_drinks;
+
+-- SHOW CREATE TABLE my_drinks;
+
